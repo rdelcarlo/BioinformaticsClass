@@ -33,15 +33,22 @@ for row in InFile:
 		row = row.strip('\n')
 		row = row.split(',')
 		print('{:<32s}{:<15s}'.format(row[0],row[3]))
+		# Sum the body size column
 		size = float(row[1])
 		logbodysize = logbodysize + size
+		# Ask if the current entry is diadromous and increase the tally if so
 		if row[3] == "diadromous":
 			diad += 1
+		# Ask if the current entry is non-diadromous and increase the tally if so
 		elif row[3] == "non-diadromous":
 			nondiad += 1
+	# Print a header to the screen
 	else:
 		print('\n'+"Taxon"+'\t\t\t\t'+"Diadromous_status"+'\n'+dash)
 	Line += 1
 
+# Print to screen the total log body size
 print('\n'+dash+'\n'+"Sum Log Body Size"+'\n'+dash+'\n'+str(logbodysize)+'\n')
+
+# Print to screen the total diadromous & non-diadromous entries
 print(dash+'\n'+"Diadromous  vs  Non-Diadromous"+'\n'+dash+'\n'+str(diad)+'\t\t'+str(nondiad)+'\n')
