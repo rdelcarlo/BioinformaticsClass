@@ -7,7 +7,7 @@ This will then sum the log body sizes and print out the total log body sizes for
 """
 
 # Create a stylistic line break unit
-dash = '-' *47
+dash = '-' *49
 
 # Create a variable of the filename
 InFileName = "Bloom_etal_2018_Reduced_Dataset.csv"
