@@ -1,0 +1,579 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Species",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "olivaceus",
+          "Olivaceus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "olivaceus"
+      }
+    ],
+    "description": "Mass edit cells in column Species"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Species",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "spirurus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sprirus"
+      }
+    ],
+    "description": "Mass edit cells in column Species"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date",
+    "guessCellType": true,
+    "removeOriginalColumn": false,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column date by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "date 1",
+    "description": "Remove column date 1"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "date 4",
+    "description": "Remove column date 4"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "date 5",
+    "description": "Remove column date 5"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Apr"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4"
+      }
+    ],
+    "description": "Mass edit cells in column date 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "4"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "04"
+      }
+    ],
+    "description": "Mass edit cells in column date 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Aug"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "08"
+      }
+    ],
+    "description": "Mass edit cells in column date 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Dec"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "12"
+      }
+    ],
+    "description": "Mass edit cells in column date 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Jan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "01"
+      }
+    ],
+    "description": "Mass edit cells in column date 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "03"
+      }
+    ],
+    "description": "Mass edit cells in column date 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "May"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "05"
+      }
+    ],
+    "description": "Mass edit cells in column date 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Nov"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "11"
+      }
+    ],
+    "description": "Mass edit cells in column date 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Oct"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "10"
+      }
+    ],
+    "description": "Mass edit cells in column date 2"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date",
+    "expression": "join ([coalesce(cells['date 6'].value,''),coalesce(cells['date 2'].value,''),coalesce(cells['date 3'].value,'')],'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column date using expression join ([coalesce(cells['date 6'].value,''),coalesce(cells['date 2'].value,''),coalesce(cells['date 3'].value,'')],'')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "date 2",
+    "description": "Remove column date 2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "date 3",
+    "description": "Remove column date 3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "date 6",
+    "description": "Remove column date 6"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ectoparasites_box",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "P2,a9"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "P2,A9"
+      }
+    ],
+    "description": "Mass edit cells in column ectoparasites_box"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ectoparasites_box",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "P2,a6;E1,H5"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "P2,A6;E1,H5"
+      }
+    ],
+    "description": "Mass edit cells in column ectoparasites_box"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ectoparasites_box",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "P2,a4"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "P2,A4"
+      }
+    ],
+    "description": "Mass edit cells in column ectoparasites_box"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ectoparasites_box",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "P2,a3"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "P2,A3"
+      }
+    ],
+    "description": "Mass edit cells in column ectoparasites_box"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ectoparasites_box",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "P2,a2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "P2,A2"
+      }
+    ],
+    "description": "Mass edit cells in column ectoparasites_box"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ectoparasites_box",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "P2,a10"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "P2,A10"
+      }
+    ],
+    "description": "Mass edit cells in column ectoparasites_box"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ectoparasites_box",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "P2,a1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "P2,A1"
+      }
+    ],
+    "description": "Mass edit cells in column ectoparasites_box"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "feather_mites_total",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MaNY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MANY"
+      }
+    ],
+    "description": "Mass edit cells in column feather_mites_total"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "feather_mites_total",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "more 10"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ">10"
+      }
+    ],
+    "description": "Mass edit cells in column feather_mites_total"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "feather_mites_total",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "FEW"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "<5"
+      }
+    ],
+    "description": "Mass edit cells in column feather_mites_total"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "feather_mites_total",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MANY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ">>10"
+      }
+    ],
+    "description": "Mass edit cells in column feather_mites_total"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ectoparasites_box",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "P2,F10 (P2,B11)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "P2,F10;P2,B11"
+      }
+    ],
+    "description": "Mass edit cells in column ectoparasites_box"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ectoparasites_box",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "E3,59: E3,60"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "E3,59;E3,60"
+      }
+    ],
+    "description": "Mass edit cells in column ectoparasites_box"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ectoparasites_box",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "E3,40; E3,41"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "E3,40;E3,41"
+      }
+    ],
+    "description": "Mass edit cells in column ectoparasites_box"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ectoparasites_box",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ectoparasites_box using expression value.trim()"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column",
+    "description": "Remove column Column"
+  }
+]
