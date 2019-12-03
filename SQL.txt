@@ -1,0 +1,10 @@
+CREATE TABLE ID AS
+SELECT field2, field3, field4
+FROM "example-ecto-file-2-xlsx"
+;
+CREATE TABLE ectoparasitism AS
+SELECT field2, field19, field20, field21, field22, field23, field24
+FROM "example-ecto-file-2-xlsx"
+;
+SELECT * FROM ectoparasitism
+WHERE field20 > 0
